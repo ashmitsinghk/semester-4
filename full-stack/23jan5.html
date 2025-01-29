@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgb(179, 218, 255);
+            text-align: center;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: green;
+            margin: 0 auto;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Colour the circle
+    </h1>
+    <div>
+
+    </div>
+    <button onclick="changeClr()">PAINT!</button>
+
+    <script>
+        function changeClr(){
+            let colour = document.querySelector('div').style.background;
+            if(colour === 'green'){
+                document.querySelector('div').style.background = 'red';
+            } else if(colour === 'red'){
+                document.querySelector('div').style.background = 'blue';
+            } else if(colour === 'blue'){
+                document.querySelector('div').style.background = 'yellow';
+            } else {
+                document.querySelector('div').style.background = 'green';
+            }
+        }
+    </script>
+</body>
+</html>

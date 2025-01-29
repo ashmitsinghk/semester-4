@@ -1,0 +1,59 @@
+* {
+    background: beige;
+    text-align: center;
+}
+
+h1 {
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out; 
+    font-size: 50px;
+}
+
+h1:hover {
+    background-color: white;
+    color: brown;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#p1, #p3 {
+    color: green;
+}
+
+#p2 {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+
+.playwrite-vn-400 {
+  font-family: "Playwrite VN", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+div {
+    background-color: red;
+}
+span {
+    background-color: yellow;
+}

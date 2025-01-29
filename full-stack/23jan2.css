@@ -1,0 +1,19 @@
+body {
+    background: rgb(49, 0, 61);
+    text-align: center;
+}
+
+button {
+    background: rgb(93, 1, 117);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: rgb(117, 1, 146);
+}

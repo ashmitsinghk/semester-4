@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Way</title>
+</head>
+<body>
+    <h1>
+        I am learning
+    </h1>
+    <button>
+        Click me!
+    </button>
+
+    <script>
+        let z = document.querySelector('h1');
+        let btn = document.querySelector('button');
+        btn.addEventListener('click', () => {
+            z.textContent = "JS is fun!";
+        });
+
+        function add(x,y){
+            return x+y;
+        }
+
+        const addArrow = (x,y) => {
+            return x+y;
+        }
+
+        console.log(add(2,3));
+        console.log(addArrow(2,3));
+    </script>
+</body>
+</html>
